@@ -1,0 +1,172 @@
+.custom-navbar {
+  background: white;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+  padding: 15px 0;
+}
+
+
+.user-section{
+  background:#f8f9fa;
+  padding:8px 12px;
+  border-radius:50px;
+}
+
+.user-avatar{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  object-fit:cover;
+}
+
+.user-name{
+  font-weight:600;
+  color:#333;
+}
+
+.logout-btn{
+  border:none;
+  background:red;
+  color:white;
+  width:35px;
+  height:35px;
+  border-radius:50%;
+  cursor:pointer;
+}
+
+.logo-text {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #0d6efd !important;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+.nav-custom {
+  color: #333 !important;
+  font-weight: 600;
+  margin: 0 10px;
+  transition: 0.3s;
+  position: relative;
+}
+
+.nav-custom:hover {
+  color: #0d6efd !important;
+}
+
+.nav-custom::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: #0d6efd;
+  left: 0;
+  bottom: 0;
+  transition: 0.3s;
+}
+
+.nav-custom:hover::after {
+  width: 100%;
+}
+
+
+.search-box {
+  display: flex;
+  width: 320px;
+  background: #f1f3f6;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.search-box input {
+  border: none;
+  background: transparent;
+  flex: 1;
+  padding: 12px 15px;
+  outline: none;
+}
+
+.search-box button {
+  border: none;
+  background: #0d6efd;
+  color: white;
+  padding: 0 20px;
+}
+
+
+.icon-box {
+  position: relative;
+  color: #333;
+  font-size: 1.4rem;
+  transition: 0.3s;
+}
+
+.icon-box:hover {
+  color: #0d6efd;
+  transform: translateY(-3px);
+}
+
+.count-badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: red;
+  color: white;
+  font-size: 11px;
+  min-width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.login-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #0d6efd;
+  color: white;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #084298;
+  color: white;
+  transform: translateY(-2px);
+}
+
+
+
+@media(max-width:992px){
+
+  .search-box{
+    width:100%;
+    margin:20px 0;
+  }
+
+  .navbar-nav{
+    margin:20px 0;
+  }
+
+}
+.dashboard-btn{
+  background:#0d6efd;
+  color:white;
+  text-decoration:none;
+  padding:8px 14px;
+  border-radius:8px;
+  font-size:14px;
+  font-weight:600;
+  transition:.3s;
+}
+
+.dashboard-btn:hover{
+  background:#0b5ed7;
+  color:white;
+}
